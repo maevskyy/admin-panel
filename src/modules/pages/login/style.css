@@ -37,10 +37,22 @@
         align-items: stretch;
     }
 
+    .custom-form-item{
+        width: 100%;
+    }
+
+    .custom-form-checkbox {
+        /*border: 1px solid red;*/
+        margin: 0;
+        align-self: flex-start;
+        padding-bottom: .3rem;
+    }
+
     .login-form-button {
         width: 100%;
-        margin-top: 10px;
+        margin-top: 15px;
     }
+
 }
 
 /* Стили для планшетов */
@@ -48,6 +60,7 @@
     .login-form {
         max-width: 360px; /* Чуть больше для планшетов */
     }
+
 }
 
 /* Остальные стили */
@@ -61,8 +74,9 @@ input {
     margin-bottom: 10px;
 }
 
-input::placeholder {
-    color: #E0E0E0;
+.custom-input input::placeholder {
+    color: #ffffff;
+    opacity: .5
 }
 
 input:focus {

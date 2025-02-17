@@ -43,17 +43,19 @@ export const Login = () => {
                 </Form.Item>
 
                 <div className="form-actions">
-                    <Form.Item name="remember" valuePropName="checked" noStyle>
+                    <Form.Item name="remember" valuePropName="checked" className='custom-form-checkbox'>
                         <Checkbox style={{ color: '#E0E0E0' }}>Remember me</Checkbox>
                     </Form.Item>
 
-                    <Form.Item>
+                    <Form.Item className='custom-form-item'>
                         <Button
                             type="primary"
                             htmlType="submit"
                             className="login-form-button"
                             style={{
-                                backgroundColor: '#00C896',
+                                // backgroundColor: '#00C896'
+                                // backgroundColor: '#15BFFD',
+                                backgroundColor: '#15BFFD   ',
                                 borderColor: '#00C896',
                                 color: '#FFFFFF',
                             }}
